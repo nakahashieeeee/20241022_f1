@@ -1,0 +1,32 @@
+\documentclass[journal]{IEEEtran}
+
+%\documentclass[a4paper, landscape]{jsarticle}%
+%\special{papersize=\the\paperwidth,\the\paperheight}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{subfigure}
+\usepackage{amsmath,amsfonts, amssymb, mathtools, amsthm, bm, stfloats, multirow,array}
+\usepackage{algorithm, algorithmic, cite, color, xcolor, colortbl, graphics}
+\hyphenation{}
+
+\newcommand{\win}{\cellcolor{cyan!20}}
+%\newcommand{\worst}{\cellcolor{red!20}}
+\newcommand{\worst}{}
+\newcommand{\igdp}{IGD$^+$}
+\newcommand{\plus}{$\,+$}
+\newcommand{\minus}{$\,-$}
+\newcommand{\nodiff}{$\,\approx$}
+
+\def\algorithm{LDSAF}
+\def\problem{plus}
+\def\FE{}
+\def\dimension{100}
+\def\indicator{}
+
+\begin{document}
+
+\input{\algorithm_D\dimension_\problem}
+
+\end{document}
+
+
